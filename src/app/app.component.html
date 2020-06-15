@@ -1,1 +1,20 @@
-
+<div class="main-content">
+  <div class="roulette-wrapper">
+    <mat-form-field appearance="outline">
+      <input matInput [(ngModel)]="selectedTheme" [readonly]="true" />
+    </mat-form-field>
+    <div class="action-area">
+      <button
+        mat-raised-button
+        [color]="'primary'"
+        (click)="rouletteStart()"
+        [disabled]="rouletteTime"
+      >
+        START
+      </button>
+      <button mat-raised-button [color]="'accent'" (click)="rouletteStop()">
+        STOP
+      </button>
+    </div>
+  </div>
+</div>

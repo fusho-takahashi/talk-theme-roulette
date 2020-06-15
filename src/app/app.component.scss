@@ -1,0 +1,27 @@
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roulette-wrapper {
+  width: 50vw;
+  min-width: 300px;
+}
+
+input {
+  text-align: center;
+  font-size: 32px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.action-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
