@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   talkThemes: string[] = [
-    '好きなおにぎりの具',
-    '好きな女性のタイプ',
+    '好きなおにぎりの具は？',
+    '好きな女性のタイプは？',
     '今日のお昼ごはん',
+    '10万円何に使う？',
+    'どこにでも行けるならどこに行きたい？',
+    '一番好きな漫画は？',
+    'オススメのランチスポット',
+    '健康に良いと思ってやっていること',
   ];
   selectedTheme: string;
   rouletteTime = false;
